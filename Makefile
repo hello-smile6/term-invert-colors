@@ -1,4 +1,4 @@
-CXXFLAGS=-std=c++98 -Wall -Wextra -O3
+CXXFLAGS=-std=c++98 -Wall -Wextra -O3 -L$(libpath)
 LDLIBS=-lansiescape
 
 all: term-invert-colors
