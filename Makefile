@@ -4,7 +4,7 @@ LDLIBS=-lansiescape
 all: term-invert-colors
 
 install: all
-	cp term-invert-colors /usr/local/bin
+	cp term-invert-colors $(OUT)
 
 clean:
 	rm -f term-invert-colors
